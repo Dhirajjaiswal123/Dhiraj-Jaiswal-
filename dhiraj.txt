@@ -36,7 +36,7 @@ logo=(f"""
 
 {g}\n{h} MAKE BY {b}{a} DHIRAJ Jaiswal
 {h} FACEBOOK{b}{a} DHIRAJ PAPA
-{h}VERSION 54.4
+{h}VERSION/4-0.1
 {h} TOOLS   {b}\x1b[0m PAID\n{g}
 {h}RANDOM {b}\x1b[0mCLONE\n{g}""")
 def clear():os.system('clear');print(logo)
