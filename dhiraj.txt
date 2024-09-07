@@ -378,7 +378,7 @@ def nepal():
         A = f"{h}COUNTRY  CODE +977{a} SIM CODE 9817 {w}|{a} 9818 {w}|{a} 9814 {w}| {a}9702\n{g}"
         B = f"{h} ENTER SIM CODE {I2} "
         C = f"{h} LIMIT{b} 1000 {w}|{a} 2500{w}|{a} 5000\n{g}"
-        D = f"{h} ENTER CREAK LIMIT 20000 {I2} "
+        D = f"{h} ENTER CREAK LIMIT  {I2} "
         print(A);CODE = input(B);clear()
         print(C)
         try:
@@ -415,14 +415,14 @@ def india():
         #passlist = [uid[:6],huf[2:8],huf[1:8],uid,huf,'i love you','india','rahul12','sharma12345','59039200','59039200','sadiya']
         A = f"{h}COUNTRY CODE{b} +91 {w}|{a} SIm CODE 8354 {w}|{a} 9818 {w}| {a}6265\n{g}"
         B = f"{h} ENTER SIM CODE {I2} "
-        C = f"{h} LIMIT{b} 3000 {w}|{a} 5000 {w}|{a} 10000\n{g}"
-        D = f"{h} ENTER CREAK LIMIT 20000 {I2} "
+        C = f"{h} LIMIT{b} 1000 {w}|{a} 2500 {w}|{a} 5000\n{g}"
+        D = f"{h} ENTER CREAK LIMIT  {I2} "
         print(A);CODE = input(B);clear()
         print(C)
         try:
              LIMIT = int(input(D))
         except ValueError:
-             LIMIT = 50000
+             LIMIT = 5000
         for number in range(LIMIT):
                 nmp = ''.join(random.choice(string.digits) for i in range(6))
                 numbr.append(nmp)
