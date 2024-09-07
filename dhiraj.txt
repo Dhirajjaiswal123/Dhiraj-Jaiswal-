@@ -35,7 +35,7 @@ logo=(f"""
 {g}\n{h} MAKE BY {b}{a} DHIRAJ Jaiswal
 {h} FACEBOOK{b}{a} DHIRAJ PAPA
 {h} TOOLS   {b}\x1b[0m PAID\n{g}
-(+) VERSION 54.4
+(h) VERSION 54.4
 {h}RANDOM {b}\x1b[0mCLONE\n{g}""")
 def clear():os.system('clear');print(logo)
 def linex():print(f"{g}")
