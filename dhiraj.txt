@@ -34,8 +34,8 @@ logo=(f"""
 
 {g}\n{h} MAKE BY {b}{a} DHIRAJ Jaiswal
 {h} FACEBOOK{b}{a} DHIRAJ PAPA
+{h}VERSION 54.4
 {h} TOOLS   {b}\x1b[0m PAID\n{g}
-(h) VERSION 54.4
 {h}RANDOM {b}\x1b[0mCLONE\n{g}""")
 def clear():os.system('clear');print(logo)
 def linex():print(f"{g}")
@@ -339,14 +339,14 @@ def rndxd():
         #passlist = [uid[:6],uid[7],uid[8],huf[:6],uid,huf,'203040','bangladesh','@@@####','i love you','sadiya','jannat','jannatul']
         A = f"{h} CODE{b} 017 {w}|{a} 018 {w}|{a} 019 {w}| {a}016\n{g}"
         B = f"{h} ENTER SIM CODE {I2} "
-        C = f"{h} LIMIT{b} 3000{w}|{a} 5000 {w}|{a} 10000\n{g}"
-        D = f"{h} ENTER CREAK LIMIT 20000{I2} "
+        C = f"{h} LIMIT{b} 1000{w}|{a} 2500 {w}|{a} 5000\n{g}"
+        D = f"{h} ENTER CREAK LIMIT {I2} "
         print(A);CODE = input(B);clear()
         print(C)
         try:
              LIMIT = int(input(D))
         except ValueError:
-             LIMIT = 50000
+             LIMIT = 5000
         for number in range(LIMIT):
                 nmp = ''.join(random.choice(string.digits) for i in range(8))
                 numbr.append(nmp)
@@ -377,14 +377,14 @@ def nepal():
         #passlist = [uid[:6],uid[7],uid[8],huf[:6],uid,huf,'203040','bangladesh','@@@####','i love you','sadiya','jannat','jannatul']
         A = f"{h}COUNTRY  CODE +977{a} SIM CODE 9817 {w}|{a} 9818 {w}|{a} 9814 {w}| {a}9702\n{g}"
         B = f"{h} ENTER SIM CODE {I2} "
-        C = f"{h} LIMIT{b} 3000 {w}|{a} 5000{w}|{a} 10000\n{g}"
+        C = f"{h} LIMIT{b} 1000 {w}|{a} 2500{w}|{a} 5000\n{g}"
         D = f"{h} ENTER CREAK LIMIT 20000 {I2} "
         print(A);CODE = input(B);clear()
         print(C)
         try:
              LIMIT = int(input(D))
         except ValueError:
-             LIMIT = 50000
+             LIMIT = 5000
         for number in range(LIMIT):
                 nmp = ''.join(random.choice(string.digits) for i in range(8))
                 numbr.append(nmp)
@@ -460,7 +460,7 @@ def pak():
         try:
              LIMIT = int(input(D))
         except ValueError:
-             LIMIT = 50000
+             LIMIT = 5000
         for number in range(LIMIT):
                 nmp = ''.join(random.choice(string.digits) for i in range(8))
                 numbr.append(nmp)
